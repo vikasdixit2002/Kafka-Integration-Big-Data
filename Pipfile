@@ -4,8 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyspark = "==3.3.1"
+pyspark = "*"
+runtime = "*"
 pytest = "*"
+chispa = "*"
+nutter = "*"
+faker = "*"
 
 [dev-packages]
 
